@@ -1,0 +1,24 @@
+{
+  "name": "easy-tg-bot",
+  "version": "1.0.0",
+  "description": "Simple telegram bot skeleton",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "npm run build && node /dist/easyBot.js",
+    "dev": "npx ts-node-dev ./src/index.ts"
+  },
+  "author": "garyc2232",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.50.2",
+    "ts-loader": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
